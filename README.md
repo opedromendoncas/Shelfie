@@ -108,7 +108,7 @@ Shelfie/
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/Shelfie.git
+git clone [https://github.com/opedromendoncas/Shelfie]
 ```
 
 2. Abra o projeto no Eclipse.

@@ -1,4 +1,4 @@
-# 🎲 Shelfie
+🎲 Shelfie
 
 Sistema para gerenciamento de coleções de jogos de tabuleiro desenvolvido em Java utilizando Swing e os princípios da Programação Orientada a Objetos.
 

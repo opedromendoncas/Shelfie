@@ -10,7 +10,7 @@ O Shelfie é uma aplicação desktop criada para auxiliar usuários no gerenciam
 
 O sistema permite cadastrar jogos, gerenciar amigos, controlar empréstimos e realizar consultas rápidas, proporcionando uma organização simples e eficiente da coleção.
 
-Este projeto foi desenvolvido como atividade acadêmica da disciplina de Programação Orientada a Objetos.
+Este projeto foi desenvolvido como parte das atividades da disciplina de Programação Orientada a Objetos, ministrada no 5º semestre do curso de Engenharia de Software da Universidade Santo Amaro (UNISA).
 
 ---
 
@@ -72,29 +72,50 @@ O sistema possui interface gráfica desenvolvida com Java Swing, seguindo uma id
 
 ---
 
+## 🏗️ Arquitetura
+
+O projeto foi organizado seguindo uma separação em camadas:
+
+- **Model:** representa as entidades e dados do sistema.
+- **View:** responsável pela interface gráfica e interação com o usuário.
+- **Controller:** responsável pelo processamento das ações e regras de negócio.
+
+Essa organização segue os princípios da Programação Orientada a Objetos, promovendo maior manutenção e reutilização do código.
+
+---
+
 ## 📂 Estrutura do Projeto
 
 ```text
 Shelfie/
 │
-├── assets/
-│   ├── logoblue.png
-│   ├── logowhite.png
-│   ├── games_icon.png
-│   ├── friends_icon1.png
-│   ├── deal_icon.png
-│   └── search_icon.png
-│
 ├── src/
 │   ├── controller/
+│   │   └── Classes responsáveis pela lógica de negócio
+│   │
 │   ├── model/
-│   └── view/
+│   │   └── Entidades e modelos do sistema
+│   │
+│   ├── view/
+│   │   └── Interfaces gráficas desenvolvidas em Swing
+│   │
+│   └── module-info.java
+│
+├── assets/
+│   ├── deal_icon.png
+│   ├── filter_icon.png
+│   ├── friends_icon1.png
+│   ├── game_icon.png
+│   ├── games_icon.png
+│   ├── info.png
+│   ├── logoblue.png
+│   ├── logowhite.png
+│   ├── search_icon.png
+│   └── trash_icon.png
 │
 ├── README.md
 └── .gitignore
 ```
-
----
 
 ## 🚀 Como Executar
 
@@ -165,7 +186,7 @@ view.TelaPrincipal
 
 ### Consulta
 
-![Consulta](docs/consulta.png)
+![Consulta](docs/consultas.png)
 
 ### Sobre
 

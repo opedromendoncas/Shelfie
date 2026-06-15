@@ -40,12 +40,6 @@ Este projeto foi desenvolvido como atividade acadêmica da disciplina de Program
 - Busca rápida por jogos cadastrados
 - Visualização facilitada das informações
 
-### ℹ️ Tela Sobre
-
-- Informações do projeto
-- Equipe de desenvolvimento
-- Dados acadêmicos
-
 ---
 
 ## 🖥️ Interface

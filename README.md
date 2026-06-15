@@ -1,7 +1,8 @@
-#🎲 Shelfie
+# 🎲 Shelfie
 
 Sistema para gerenciamento de coleções de jogos de tabuleiro desenvolvido em Java utilizando Swing e os princípios da Programação Orientada a Objetos.
 
+---
 
 ## 📖 Sobre o Projeto
 
@@ -11,6 +12,7 @@ O sistema permite cadastrar jogos, gerenciar amigos, controlar empréstimos e re
 
 Este projeto foi desenvolvido como atividade acadêmica da disciplina de Programação Orientada a Objetos.
 
+---
 
 ## ✨ Funcionalidades
 
@@ -37,6 +39,12 @@ Este projeto foi desenvolvido como atividade acadêmica da disciplina de Program
 
 - Busca rápida por jogos cadastrados
 - Visualização facilitada das informações
+
+### ℹ️ Tela Sobre
+
+- Informações do projeto
+- Equipe de desenvolvimento
+- Dados acadêmicos
 
 ---
 
